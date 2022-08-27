@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encryptor</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Alura logo with initial letter">
+    </header>
+    <main>
+        <section>
+            <textarea name="" id="" cols="40" rows="6" class="text-input" placeholder="Enter the text here!"></textarea>
+            <div>
+                <h6 class="information">Only lowercase letters and no accents.</h6>
+            </div>
+            <div class="buttons">
+                <button class="encrypt" onclick="btnEncrypt()">Encrypt</button>
+                <button class="decrypt" onclick="btnDecrypt()">Decrypt</button>
+            </div>
+        </section>
+        <section>
+            <textarea cols="18" rows="8" class="text-output"></textarea>
+            <button onclick="btnCopy()" class="copy-text">Copy</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+body {
+    background-color: #E5E5E5;
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.text-input {
+    margin-top: 90px;
+}
+
+.text-output {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("images/person.svg");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+
+}
+
+.copy-text {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+}
+
+.information {
+    font-size: 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encrypt {
+    background-color: darkblue;
+    color:white;
+}
+
+.decrypt {
+    margin-left: 30px;
+}
+
